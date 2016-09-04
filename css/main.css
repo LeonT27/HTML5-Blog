@@ -2,7 +2,7 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 13px;
     line-height: 1.4;
 }
 
@@ -56,19 +56,209 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
 
 
 
+header#main {
+    height: 50px;
+    background: #333;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+div#brand h1 {
+    padding: 5px 0 0 70px;
+    color: #fff;
+    margin: 0; !important
+}
+
+div#brand {
+    float: left;
+    width: 50%;
+}
+
+div#brand img {
+    position: absolute;
+    width: 43px;
+    height: auto;
+}
+
+nav#main {
+    float: right;
+    width: 50%;
+    padding-top: 12px;
+}
+
+nav#main ul {
+    float: right;
+}
+
+nav#main li {
+    float: left;
+    padding: 3px 5px 0 5px;
+    margin: 0 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    list-style: square;
+    color: #fff;
+}
+
+nav#main a {
+    color: #fff;
+}
+
+section#content {
+    float: left;
+    width: 63%;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 0 20px 20px 20px;
+}
+
+article {
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 0 20px 0;
+}
+
+article img {
+    width: 100%;
+}
+
+article h2 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+article .meta {
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    background: #333;
+    color: #fff;
+}
+
+article .meta span {
+    float: right;
+}
+
+article .readMore {
+    background: #f4f4f4;
+    color: #000;
+    width: 97%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+article .readMore:hover {
+    background: #ccc;
+}
+
+aside#rightbar {
+    float: right;
+    width: 30%;
+}
+
+.search {
+    float: right;
+}
+
+.search input[type="search"] {
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 80%;
+    padding: 3px;
+}
+
+.search i {
+    font-size: 150%;
+}
+
+nav#side {
+    padding: 20px 0 20px 0;
+}
 
 
+nav#side li {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    border-bottom: dotted 1px #333;
+    list-style: none;
+}
 
+nav#side a {
+    color: #333;
+}
 
+nav#side a:hover, nav#side:active {
+    color: #ff0000;
+}
 
+.ad  img {
+    width: 100%;
+}
 
+footer#main {
+    background: #333;
+    color: #fff;
+    min-height: 150px;
+    margin-top: 20px;
+    overflow: auto;
+}
 
+footer#main a {
+    color: #fff;
+}
 
+footer#main .copy {
+    padding: 20px 0 0 350px;
+}
 
+footer#main .footer-left {
+    float: left;
+    width: 50%;
+}
 
+footer#main .footer-right {
+    float: right;
+    width: 50%;
+}
+
+footer#main .footer-nav {
+    float: left;
+    font-size: 15px;
+    width: 31%;
+    padding: 20px 0 20px 0;
+    margin-right: 10px;
+}
+
+footer#main .footer-nav li {
+    padding: 5px 0 5px 0;
+    border-bottom: dotted #666 1px;
+}
 
 /* ==========================================================================
    Media Queries
