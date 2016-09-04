@@ -3,22 +3,92 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>HTML5 Blog</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        
+        <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/main.js"></script>
     </head>
     <body>
-
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <script src="js/main.js"></script>
+        <header id="main">
+            <div class="container">
+                <div id="brand">
+                    <img src="img/richi.png" alt="DemBlog">
+                    <h1>El DemBlog</h1>
+                </div>
+                <nav id="main">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="single-post.html">Unico post</a></li>
+                        <li><a href="add-post.html">Agregar un post</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <aside id="rightbar">
+                <div class="search">
+                    <form>
+                        <input type="search" placeholder="Buca lo tuyo manito...">
+                        <i class="ion-search"></i>
+                    </form>
+                </div>
+                <div class="clearfix"></div>
+                <nav id="side">
+                    <ul>
+                        <li><a href="#">Artistas</a></li>
+                        <li><a href="#">Generos</a></li>
+                        <li><a href="#">Lo que viene</a></li>
+                    </ul>
+                </nav>
+                <div class="ad">
+                    <img src="img/nfasis.jpg" alt="Publicidad">
+                </div>
+            </aside>
+            <section id="content">
+                <article>
+                    <header>
+                        <h2>Dembow de un dominicano en publicidad de Toyota</h2>
+                        <div class="meta">
+                            Escrito por <strong>Richi Rayita 6/06/06</strong> <span>(2 Comentarios)</span>
+                        </div>
+                    </header>
+                    <img src="img/chuape.jpg" alt="El chuape">
+                    <p> SANTO DOMINGO, República Dominicana.- Ha causado gran revuelo en las redes sociales la nueva publicidad de la marca Toyota, la cual promociona su nuevo modelo de automóvil, utilizando un dembow del dominicano Virgilio Rodríguez, mejor conocido como  “El Chuape”. El tema “Ponme to’ eso pa’ lante”, que sonó hace varios años en la radio dominicana, es el tema de fondo de la publicidad.</p>
+                    <footer>
+                        <a class="readMore" href="single-post.html">Seguir leyendo</a>
+                    </footer>
+                </article>
+            </section>
+            <div class="clearfix"></div>
+        </div>
+        <footer id="main">
+            <div class="container">
+                <div class="footer-right">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="single-post.html">Unico post</a></li>
+                            <li><a href="add-post.html">Agregar un post</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="#">Artistas</a></li>
+                            <li><a href="#">Generos</a></li>
+                            <li><a href="#">Lo que viene</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-left">
+                    <p class="copy">Copyright &copy; 2016, El DemBlog</p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
